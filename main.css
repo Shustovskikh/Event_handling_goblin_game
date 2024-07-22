@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #8bc34a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.goblin {
+  width: 80px;
+  height: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hammer-cursor {
+  cursor: url(fa0d2893a59572ae8eb4.png), auto;
+}
+
+#start-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
